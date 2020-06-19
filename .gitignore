@@ -1,0 +1,8 @@
+*.pth
+*.pickle
+*.pyc
+__pycache__
+*.ann
+ssg
+dataset
+*.jpg

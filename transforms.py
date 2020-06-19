@@ -263,8 +263,8 @@ def build_transforms(height,
     transform_train += [ToTensor()]
     # if illumination_aug:
     #     transform_train += [Augmenter()]
-    if color_aug:
-        transform_train += [ColorAugmentation()]
+    # if color_aug:
+    #     transform_train += [ColorAugmentation()]
     transform_train += [normalize]
     if random_erase:
         transform_train += [RandomErasing()]
